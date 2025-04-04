@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.outer{
+    border: 1px solid red;
+    height:700px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(125, 221, 7, 0.56) 0px 22px 70px 4px;
+}
+
+.red,.blue,.green,.yellow{
+    width: 274px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+/***color***/
+
+.red{
+    background-color:red;
+}
+.green{
+    background-color:green;
+}
+.blue{
+    background-color:royalblue;
+}
+.yellow{
+    background-color:hsl(50, 93%, 48%);
+}
+
+/**************box inside*****************/
+.box{
+    background-color: white;
+    width: 180px;
+    height: 165px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.insidebox_redBackground{
+    width: 50px;
+    height:50px;
+    border: 7px solid red;
+    margin: 10px;
+    border-radius: 50%;
+}
+.insidebox_greenBackground{
+    width: 50px;
+    height:50px;
+    border: 7px solid green;
+    margin: 10px;
+    border-radius: 50%;
+}
+.insidebox_blueBackground{
+    width: 50px;
+    height:50px;
+   border: 7px solid royalblue;
+    margin: 10px;
+    border-radius: 50%; 
+}
+.insidebox_yellowBackground{
+    width: 50px;
+    height:50px;
+    border: 7px solid hsl(50, 93%, 48%);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/***********square box****************/
+.square{
+    width: 49px;
+    height: 46px;
+    border:1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+.squareContainer{
+    display: flex;
+}
+
+.row{
+    width: 700px;
+    height: 149px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}   
+
+.row1{
+    display: flex;
+}
+
+.square1{
+    width: 45.2px;
+    height: 48.7px;
+    border:1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.square img{
+    height: 6vh;
+    width: 3vw;
+    padding: 0.8vh;
+}
+.square1 img{
+    height: 6vh;
+    width: vw;
+    padding: 0.8vh;
+}
+
+.center{
+    background-color: rgb(255, 255, 255);
+
+}
+

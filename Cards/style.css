@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+
+#main{
+    width: 100%;
+    height:100%;
+}
+
+.card{
+    position: absolute; /*aa no meaning card have main par deapend nai kare.*/
+    top:40%; /*display flex no use kari ne card ne center ma na lavyo beacuse te ek uper ek na aav aa method no use kari card ek ni uper ek aave*/ 
+    left:45%;
+   border: 1px solid salmon;
+    border-radius:20px;
+    width: 230px;
+    height: 300px;
+    overflow: hidden; /*aana use thi tame te object ni andar je image deso te border ni andar j rese atle border perfect dekhase*/
+   } 
+
+/*z-index no use object ne front ma ka to becand ma lavvi hoy teni potition change karvi hoy to z-index no use thay.
+jetli z-index ni value vadhare tetli te object uper aave means screen par front ma dekhay*/
+
+#card1{
+    z-index: 4; 
+    background-color: #6485de;
+    transform: translate(-50px, -50px);
+}
+
+#card2{
+    z-index:3;
+    transform: translate(-50px, -50px) rotate(-8deg); /* Moves the box -50px right and -50px down */
+
+    background-color: #31c757;
+}
+
+#card3{
+    z-index:2;
+    transform: translate(-50px, -50px) rotate(-16deg);
+    background-color: #dd1818;
+}
+#card4{
+    z-index:1;
+    transform: translate(-50px, -50px) rotate(-23deg);
+    background-color: #d949cd;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /*aana use thi image ek dum set thai jase;*/
+}
+
+#card2:hover{
+    z-index: 10;
+}
+#card3:hover{
+    z-index: 10;
+}
+#card4:hover{
+    z-index: 10;
+}
+
+
+
+ 
+

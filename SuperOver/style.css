@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+html,body{
+   width: 100%;
+   height: 100%;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/cricket-tournament-night-stadium-background_1302-15350.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 240px;
+}
+
+.box1{
+    width: 18rem;
+    height: 13.5rem;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 13px;
+    margin:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.box2{
+    width: 18rem;
+    height: 13.5rem;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    border-radius: 13px;
+    margin:10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.box1 h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 3rem;
+}
+
+.box2 h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem; 
+}
+
+ .box1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .box2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: x-large;
+    margin-top: 25px;
+    background-color: rgb(50, 71, 71);
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    border-radius: 50%;
+    color: white;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2.3rem;
+    margin-top: 19px;
+    color: white;
+}
+
+
+.header-img img{
+    width: 8vw;
+    height: 20vh;
+}
+.header-img {
+    width: 1vw;
+    height: 2vh;
+   margin-left: 45vw;
+}

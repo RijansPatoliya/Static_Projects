@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 5rem;
+}
+
+.sudoku{
+    color: white;
+    position: absolute;
+    top: 10%;
+    margin-left: 37vw;
+}
+
+.ans{   
+        color: white;
+        position: absolute;
+        top: 10%;
+        margin-right: 37vw;
+}
+
+.main-border1{
+    border: 2px solid rgba(225, 222, 44, 0.776);
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: repeat(3,10rem);
+    grid-template-rows: repeat(3,10rem);
+    box-shadow: rgba(215, 194, 33, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-border2{
+    border: 2px solid rgb(28, 43, 6);
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: repeat(3,10rem);
+    grid-template-rows: repeat(3,10rem);
+    box-shadow: rgba(210, 224, 14, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-border1{
+    border: 3px solid black;
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: repeat(3,10rem);
+    grid-template-rows: repeat(3,10rem);
+}
+
+.boxes{
+    border: 2px solid black;
+    height: 10rem;
+    width: 10rem;
+    
+}
+
+.minbox{
+    border: 0.7px solid rgb(0, 0, 0);
+    height: 3.33rem;
+    width: 3.33rem;
+}
+
+.rijans{
+    display: grid;
+    grid-template-columns: repeat(3,3.33rem);
+    grid-template-rows: repeat(3,3.33rem);
+    background-color: rgb(232,190,155);
+}
+
+.rijans-color{
+    display: grid;
+    grid-template-columns: repeat(3,3.33rem);
+    grid-template-rows: repeat(3,3.33rem);
+    background-color: rgb(183,122,94)
+}
+
+.minbox h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

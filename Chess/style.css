@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+   
+    background-color: #feee9f;
+
+ }
+
+.outer{
+     height: 800px;
+     width:800px;
+     box-shadow: rgba(12, 255, 77, 0.4) 0px 30px 90px;
+     margin:0px auto;
+
+ }
+ .row{
+     height: 100px;
+     width: 800px;
+     background-color: #ccc;
+ }
+ .black{
+     height: 100px;
+     width: 100px;
+     background-color: #769656;
+     float: left;
+ }
+ .white{
+     height: 100px;
+     width: 100px;
+     background: color #eeeed2;;
+     float: left ;
+ }
+
+ img{
+     width:100%;
+ }

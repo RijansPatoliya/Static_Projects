@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url(./cricpro-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+a{
+
+    margin-left: 84vw; 
+}
+
+.heading{
+     margin-left: 4% ;
+     margin-bottom: 5%;
+      height: 7vh;
+}
+
+.heading h1{
+    font-size: 6vh;
+    text-shadow: 2px 2px 4px black;
+}
+.heading p{
+    font-size: 3.4vh;
+    color: gray;
+}
+
+.main{
+    background-color: rgb(234, 133, 133);
+    height: 70vh;
+    width: 63vw;
+    margin-left:  4vw;
+    position: relative;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.firstline{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(236, 62, 62);
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    height: 7vh;
+    align-items: center;
+    padding: 1vw;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 400;
+    height: 6vh;
+    align-items: center;
+    padding: 1vw;
+    border-bottom: 1px solid rgb(52, 50, 50);
+}
+
+.right1-content{
+   display: grid;
+   grid-template-columns: repeat(5,minmax(60px,1fr));
+   gap: 18px;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 400;
+    height: 6.4vh;
+    align-items: center;
+    padding: 1vw;
+    border-bottom: 1px solid rgb(52, 50, 50);
+    align-items: center;
+}
+
+.right2-content{
+    display: grid;
+   grid-template-columns: repeat(5,minmax(60px,1fr));
+   gap: 18px;
+}
+
+.bottom{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(52, 50, 50);
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+    height: 6.4vh;
+    padding: 1vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+span{
+    gap: 6vw;
+    margin-right: 4vw;
+    font-size: larger;
+}
